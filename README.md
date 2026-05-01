@@ -1,24 +1,27 @@
-# Técnicas y Diseño de Algoritmos
+# Sistemas Operativos
 
-Repositorio con trabajos prácticos y ejercicios de la materia Técnicas y Diseño de Algoritmos.
+Repositorio con prácticas, ejercicios y trabajos de la materia Sistemas Operativos.
 
 ## Sobre la materia
 
-La materia se enfoca en cómo diseñar algoritmos eficientes y analizar su complejidad. Se ven distintas técnicas para resolver problemas y comparar soluciones en términos de tiempo y recursos :contentReference[oaicite:0]{index=0}.
+La materia se enfoca en entender cómo funciona un sistema operativo internamente: manejo de procesos, memoria, concurrencia y uso de recursos. También se ven temas más avanzados como sistemas distribuidos y seguridad.
 
 ## Qué hay en el repo
 
-- Resoluciones de ejercicios  
-- Implementaciones de algoritmos  
-- Práctica de distintas técnicas de diseño  
+- Ejercicios prácticos  
+- Resoluciones propias  
+- Código de pruebas  
+- Implementaciones de problemas clásicos  
 
 ## Qué aprendí
 
-- Analizar la complejidad (Big O)  
-- Aplicar técnicas como divide & conquer, greedy y programación dinámica :contentReference[oaicite:1]{index=1}  
-- Elegir estructuras de datos según el problema  
-- Pensar soluciones más eficientes y no solo que funcionen  
+- Manejo de procesos y threads  
+- Sincronización (semáforos, concurrencia, deadlocks)  
+- Administración de memoria  
+- Comunicación entre procesos  
+- Conceptos de file systems y entrada/salida  
+- Bases de sistemas distribuidos  
 
 ## Notas
 
-Es un repo de cursada, la idea es mostrar cómo fui resolviendo los problemas y mejorando con la práctica.
+La materia es bastante práctica y te obliga a entender qué pasa “por abajo”. Este repo refleja ese proceso más que soluciones perfectas.
