@@ -1,0 +1,27 @@
+//SumaGolosa
+#include <queque>
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int sumaGolosa(vector<int> S){
+    S.sort(); //heapsort, ascendente
+    acum = S[0];
+    res = 0;
+    for (int i = 1 ; i < n ; i++){
+        acum+= acum + S[i]; //me baso en que el minimo resultado va a ser lo minimo que voy a ir acumulando. Lo minimo que voy puedo acumular es ir agarrando los minimos
+        res+= acum;
+    }
+    return res;   
+}
+
+/*
+Si codifico mi solucion como la eleccion del numero en el paso i esimo
+veamos que gi+1 esta incluida en mi optima asumiendo g1,...,gi ,siendo i+1<n
+CB: Ningun elemento. Esta incluido en optima.
+Si gi+1 != si+1. si+1 > gi+1. En las siguientes j = n - (i + 1) iteraciones voy a tener
+acumulado mi si+1. Osea al final voy a tener j veces la diferencia si+1 - gi+1 en la optima.
+A diferencia de mi solucion, que no lo hace. Y esto es absurdo porque no puedo tener una solucion que sea menor a la optima.
+Por partir de suponer que gi+1 no esta incluida. 
+*/

@@ -1,0 +1,29 @@
+A y B) belleza(j) = { 0               Si j == 0
+	     { Max_{1<= i <= j-1} (belleza(i) + S[i][j])
+	   
+	   
+
+j-1 llamadas recursivas en cada paso.
+
+Nuestra cantidad de vertices esta dado por S(j) = 1 + Sum_{i= 1}^{j-1}(S[i]).
+
+Pero a nosotros nos interesa la cantidad de hojas para determinar la cantidad de llamados que hace nuestra funcion recursiva.
+Y esto esta dado por H(j) = Sum_{i= 1}^{j-1}(S[i]) = 2^( j - 3 ). 
+
+Se puede ver claramente que 
+
+omega(2^( j - 3 )) >> omega(j)  
+
+donde j es la cantidad de llamados distintos
+ 
+ 
+ //
+ c)
+ 
+ Utilizamos un vector de tamaño |s| para memorizar. 
+ Y en cada llamado estamos haciendo como mucho |s| o j-1 llamados recursivos en el peor de los casos.
+ 
+ Entonces nuestra complejidad temporal es O(|s|²|
+ 
+ 
+
